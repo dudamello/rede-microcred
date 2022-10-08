@@ -103,7 +103,7 @@ button:focus {
   width: 100%;
   text-align: center;
   padding: 1rem 0;
-  background-color: #0a1f44;
+  background-color: #161616;
   font-size: .9rem;
   cursor: pointer;
   z-index: 1;
@@ -1332,10 +1332,10 @@ textarea.contact-form__input {
   opacity: .9;
 }
 
-/* ====================================== */
+/* block 44 mudou o rodapé====================================== */
 
 .block-44 {
-  --block-background: #0a1f44;
+  --block-background: #161616;
   --block-text-color: white;
   --text-primary: var(--block-text-color);
   background: var(--block-background);
