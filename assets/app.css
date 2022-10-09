@@ -1487,7 +1487,7 @@ button:focus {
   height: 100%;
 }
 
-iframe[src*=youtube] {
+iframe {
   display: block;
   margin: 0 auto;
   max-width: 100%;
