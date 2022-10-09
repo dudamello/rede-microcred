@@ -1119,10 +1119,6 @@ button:focus {
   color: var(--block-text-color);
 }
 
-.block__header {
-  margin-bottom: 4rem;
-}
-
 .block__title {
   font-size: 2rem;
   font-weight: 900;
@@ -1136,7 +1132,7 @@ button:focus {
 }
 
 .content-block {
-  text-align: initial;
+  text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -1510,4 +1506,17 @@ textarea.contact-form__input {
 #team .member .social i {
     font-size: 18px;
     margin: 0 2px;
+}
+
+
+
+#video {
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 60px 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
