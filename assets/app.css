@@ -700,7 +700,7 @@ button:focus {
 /* ======================================= */
 
 .block-20 {
-  --block-background: #f8f8f8;
+  --block-background: #ffffff;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
@@ -1113,7 +1113,7 @@ button:focus {
 /* ======================================= */
 
 .block-39 {
-  --block-background: white;
+  --block-background: #f8f8f8;
   --block-text-color: var(--text-primary);
   background: var(--block-background);
   color: var(--block-text-color);
@@ -1453,7 +1453,7 @@ button:focus {
 #video {
   align-items: center;
   text-align: center;
-  background: #fff;
+  background: #f8f8f8;
   padding: 60px 0;
   bottom: 0;
   top: 0;
