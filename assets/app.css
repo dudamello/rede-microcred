@@ -191,7 +191,7 @@ button:focus {
 }
 
 .hero-nav__logo {
-  height: 35px;
+  height: 50px;
 }
 
 .hero-nav__link {
@@ -1300,7 +1300,7 @@ button:focus {
 }
 
 .block-44__logo {
-  height: 36px;
+  height: 80px;
   filter: brightness(1000);
 }
 
@@ -1470,4 +1470,19 @@ button:focus {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
