@@ -1161,105 +1161,45 @@ button:focus {
 .block-28 {
   --block-background: white;
   --block-text-color: var(--text-primary);
-  background-color: var(--block-background);
+  background: var(--block-background);
   color: var(--block-text-color);
-  background-image: linear-gradient(to bottom, #f8f8f8 50%, transparent 0);
+}
+
+.block__title {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.4;
 }
 
 @media(min-width: 992px) {
-  .block-28 {
-    background-image: linear-gradient(to right, #f8f8f8 50%, transparent 0);
+  .block__title {
+    font-size: 2.5rem;
   }
 }
 
-.block-28__content-side,
-.block-28__form-side {
-  
-  padding-bottom: 5rem;
+.content-block {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-.contact-info,
-.contact-form {
-  width: 90%;
-  margin: auto;
-}
-
-.contact-info {
-  font-size: .9rem;
-}
-
-.contact-form__title,
-.contact-info__title {
-  font-size: 2rem;
+.content-block__title {
+  font-size: 1.2rem;
   font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
-.contact-info__paragraph {
-  line-height: 1.7;
-  opacity: .9;
+@media(min-width: 992px) {
+  .content-block__title {
+    font-size: 1.5rem;
+  }
 }
 
-.contact-info__title-2 {
-  font-weight: 600;
-}
-
-.contact-info__title-2
-.contact-info__item {
-  opacity: .9;
-}
-
-.contact-form__paragraph {
+.content-block__paragraph {
   font-size: 1rem;
   opacity: .9;
   line-height: 1.7;
-  width: 90%;
-}
-
-.contact-form__input {
-  color: var(--text-primary);
-  font-size: .87rem;
-  padding: .87rem 1.4rem;
-  border-radius: 5px;
-  border: 1px solid rgba(0,0,0,0.1);
-  background: rgba(0,0,0,0.01);
-  width: 100%;
-  margin-bottom: .87rem;
-}
-
-textarea.contact-form__input {
-  height: 130px;
-  resize: none;
-}
-
-.contact-form__input:focus {
-  border: 1px solid var(--primary);
-  outline: none;
-  box-shadow: none;
-}
-
-.btn--loading {
-  opacity: 1;
-  cursor: progress;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.btn--loading::before,
-.btn--loading::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.btn--loading::before {
-  background: var(--primary);
-  width: 100%;
-  height: 100%;
-  z-index: 1;
 }
 
 /* Safari */
@@ -1511,6 +1451,17 @@ textarea.contact-form__input {
 
 
 #video {
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 60px 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#contact {
   align-items: center;
   text-align: center;
   background: #fff;
