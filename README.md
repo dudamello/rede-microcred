@@ -10,7 +10,9 @@ Agentes de crédito podem fazer uma assinatura na plataforma para ver mais indic
 
 **Rede Microcred, conecte-se com a gente!**
 
-(video)
+## Pitch
+
+[![thumb](https://user-images.githubusercontent.com/40076894/194792860-19c808fe-ac1e-4ce4-9953-fc121d0c39c2.PNG)](https://youtu.be/-GCG_-z2FXk)
 
 ## Solução
 
@@ -18,7 +20,7 @@ Para atender a proposta do hackathon, a equipe codificou uma landing page para c
 
 - Protótipo mobile - [Figma](https://www.figma.com/proto/umlkpROE5OXCWAZlZCs5RT/Microcr%C3%A9dito-Hacka?page-id=1%3A4&node-id=59%3A7274&viewport=729%2C231%2C0.12&scaling=min-zoom&starting-point-node-id=59%3A7205)
 - Landing Page para coleta de leads - [Site](https://dudamello.github.io/rede-microcred/)
-- Pitch - Youtube
+- Pitch - [Youtube](https://youtu.be/-GCG_-z2FXk)
 
 ## Tecnologias Utilizadas na Codificação
 
